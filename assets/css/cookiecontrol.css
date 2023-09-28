@@ -83,7 +83,7 @@
   @apply fixed bottom-0 left-0 right-0 z-50 mx-auto border px-6 py-4 shadow-xl sm:bottom-6 sm:left-16 sm:right-16 sm:max-w-5xl sm:rounded-md;
 }
 .cookieControl__BarContainer {
-  @apply flex items-center justify-between space-x-6 sm:space-x-0 rtl:space-x-reverse;
+  @apply flex items-center justify-between space-x-6 rtl:space-x-reverse sm:space-x-0;
   @apply flex-col lg:flex-row;
 }
 .cookieControl__BarContainer div h3 {
@@ -101,9 +101,8 @@
   @apply whitespace-nowrap rounded-lg border px-5 py-2.5 text-sm font-medium  transition duration-150 ease-in-out focus:z-10 focus:outline-none focus:ring-4;
 }
 .cookieControl__BarButtons button:nth-child(1) {
-  @apply md:ml-3 whitespace-nowrap rounded-lg  px-5 py-2.5 text-sm font-medium  transition duration-150 ease-in-out  focus:z-10 focus:outline-none focus:ring-4;
+  @apply whitespace-nowrap rounded-lg px-5  py-2.5 text-sm font-medium transition  duration-150 ease-in-out focus:z-10  focus:outline-none focus:ring-4 md:ml-3;
   @apply rtl:ml-0;
-
 }
 
 /* --------------------------------------------------------------------------
@@ -157,7 +156,7 @@
   @apply border-b font-bold;
 }
 .cookieControl__ModalContentInner {
-  @apply max-h-[90vh] md:max-h-[80vh] overflow-y-scroll;
+  @apply max-h-[90vh] overflow-y-scroll md:max-h-[80vh];
 }
 .cookieControl__ModalContentInner ul li {
   @apply relative my-3 rounded-md p-5;
@@ -183,13 +182,13 @@
   @apply rtl:sm:flex-row;
 }
 .cookieControl__ModalButtons button {
-  @apply flex-row whitespace-nowrap rounded-lg border px-5 py-2.5 text-sm font-medium transition duration-150 ease-in-out focus:z-10 focus:outline-none focus:ring-4 mb-3 md:mb-0;
+  @apply mb-3 flex-row whitespace-nowrap rounded-lg border px-5 py-2.5 text-sm font-medium transition duration-150 ease-in-out focus:z-10 focus:outline-none focus:ring-4 md:mb-0;
 }
 .cookieControl__ModalButtons button:nth-child(3) {
   @apply sm:absolute sm:left-0;
 }
 .cookieControl__ModalButtons button:nth-child(1) {
-  @apply sm:ml-2 whitespace-nowrap rounded-lg px-5 py-2.5 text-sm font-medium transition duration-150 ease-in-out focus:z-10 focus:outline-none focus:ring-4;
+  @apply whitespace-nowrap rounded-lg px-5 py-2.5 text-sm font-medium transition duration-150 ease-in-out focus:z-10 focus:outline-none focus:ring-4 sm:ml-2;
 }
 
 /* -----------------------------------------------------------------------------

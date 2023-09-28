@@ -12,6 +12,7 @@ useLocaleHead({
 
   -->
   <div class="container mx-auto max-w-screen-lg px-8">
+    <HeaderGenel />
     <header class="mb-5">
       <nav class="flex flex-row justify-between pb-5 pt-10">
         <NuxtLink to="/" aria-label="Home" class="min-w-fit">

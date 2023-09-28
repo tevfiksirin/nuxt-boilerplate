@@ -10,7 +10,7 @@
     "editor.tabSize": 2
   },
   "[vue]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "Vue.volar"
   },
   "files.trimTrailingWhitespace": true,
   "npm.packageManager": "pnpm",
@@ -23,9 +23,7 @@
     "css": "css"
   },
   "tailwindCSS.emmetCompletions": true,
-  "i18n-ally.localesPaths": [
-    "locales"
-  ],
+  "i18n-ally.localesPaths": ["locales"],
   "i18n-ally.displayLanguage": "en-US",
   "i18n-ally.sourceLanguage": "en-US",
   "i18n-ally.keystyle": "nested"
