@@ -33,18 +33,10 @@ useLocaleHead({
         </NuxtLink>
         <div
           class="flex flex-col space-x-3 space-y-4 rtl:space-x-reverse sm:flex-row sm:space-y-0"
-        >
-          <ThemeSwitcher
-            class="inline-flex rounded-lg border border-gray-200 bg-gray-50 p-2.5 text-sm text-gray-900 dark:border-gray-700 dark:bg-slate-800 dark:text-white"
-          />
-
-          <LanguageSelector
-            class="inline-flex rounded-lg border border-gray-200 bg-gray-50 p-2.5 text-sm text-gray-900 dark:border-gray-700 dark:bg-slate-800 dark:text-white"
-          />
-        </div>
+        ></div>
       </nav>
       <nav
-        class="prose dark:prose-invert flex justify-between font-light text-slate-500 dark:text-slate-100"
+        class="dark:prose-invert prose flex justify-between font-light text-slate-500 dark:text-slate-100"
       >
         <ul
           class="flex items-center justify-center space-x-2 rtl:space-x-reverse"
@@ -85,8 +77,8 @@ useLocaleHead({
               target="_blank"
               to="https://github.com/renegadevi/nuxt-boilerplate"
               aria-label="Github"
-              ><span class="dark:hidden"
-                ><Icon name="mdi:github" size="auto" color="black" />
+              ><span class="dark:hidden">
+                <Icon name="mdi:github" size="auto" color="black" />
               </span>
               <span class="hidden dark:block">
                 <Icon

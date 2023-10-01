@@ -35,7 +35,6 @@ export default {
     `./app.{js,ts,vue}`,
     `./error.{js,ts,vue}`,
     `./app.config.{js,ts}`,
-    "./node_modules/flowbite/**/*.{js,ts}",
   ],
   // safelist: [
   //   'safelisted',
@@ -43,5 +42,5 @@ export default {
   //     pattern: /bg-(red|green|blue)-(100|200|300)/,
   //   },
   // ]
-  plugins: [require("flowbite/plugin")],
+  plugins: [require("daisyui")],
 } satisfies Config;
